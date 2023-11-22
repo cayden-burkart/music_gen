@@ -129,7 +129,7 @@ def train(
         run = wandb.init(project="audiocraft")
 
     model = MusicGen.get_pretrained(model_id)
-    model.lm = model.lm.to(torch.float32)  # important
+    model.lm = model.lm.to(torch.float32).to(device)  # important
 
     dataset = AudioDataset(dataset_path, no_label=no_label)
     train_dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
