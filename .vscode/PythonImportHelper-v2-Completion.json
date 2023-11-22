@@ -17,6 +17,14 @@
         "documentation": {}
     },
     {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "MusicGen",
         "importPath": "audiocraft.models",
         "description": "audiocraft.models",
@@ -229,6 +237,50 @@
         "documentation": {}
     },
     {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "AudioSegment",
+        "importPath": "pydub",
+        "description": "pydub",
+        "isExtraImport": true,
+        "detail": "pydub",
+        "documentation": {}
+    },
+    {
+        "label": "soundfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "soundfile",
+        "description": "soundfile",
+        "detail": "soundfile",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "librosa",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "librosa",
+        "description": "librosa",
+        "detail": "librosa",
+        "documentation": {}
+    },
+    {
         "label": "torch.nn",
         "kind": 6,
         "isExtraImport": true,
@@ -367,15 +419,6 @@
         "documentation": {}
     },
     {
-        "label": "random",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "random",
-        "description": "random",
-        "detail": "random",
-        "documentation": {}
-    },
-    {
         "label": "torch_xla",
         "kind": 6,
         "isExtraImport": true,
@@ -490,6 +533,60 @@
         "description": "run",
         "peekOfCode": "args = parser.parse_args()\ntrain(\n    dataset_path=args.dataset_path,\n    model_id=args.model_id,\n    lr=args.lr,\n    epochs=args.epochs,\n    use_wandb=args.use_wandb,\n    save_step=args.save_step,\n    no_label=args.no_label,\n    tune_text=args.tune_text,",
         "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "delete_files_in_directory",
+        "kind": 2,
+        "importPath": "split",
+        "description": "split",
+        "peekOfCode": "def delete_files_in_directory(directory_path):\n    # Iterate through the files in the directory\n    for file_name in os.listdir(directory_path):\n        # Construct the full file path\n        file_path = os.path.join(directory_path, file_name)\n        # Check if it is a file (not a directory)\n        if os.path.isfile(file_path):\n            # Delete the file\n            os.remove(file_path)\n            print(f\"Deleted: {file_path}\")",
+        "detail": "split",
+        "documentation": {}
+    },
+    {
+        "label": "process_audio",
+        "kind": 2,
+        "importPath": "split",
+        "description": "split",
+        "peekOfCode": "def process_audio(file_path, output_dir, segment_length=30):\n    global global_offset\n    # Load audio file\n    audio = AudioSegment.from_file(file_path)\n    # Get file name without extension for caption\n    file_name = \" \".join(os.path.splitext(os.path.basename(file_path))[0].split('_')[:-2])\n    #print(file_name)\n    # Convert segment length to milliseconds\n    segment_length_ms = segment_length * 1000\n    # Set the sample rate to 32000 Hz",
+        "detail": "split",
+        "documentation": {}
+    },
+    {
+        "label": "input_folder_name",
+        "kind": 5,
+        "importPath": "split",
+        "description": "split",
+        "peekOfCode": "input_folder_name = \"raw\"\noutput_folder_name = \"train\"\nif not os.path.exists(input_folder_name):\n    os.makedirs(input_folder_name)\n    print(f\"'{input_folder_name}' folder created.\")\nif not os.path.exists(output_folder_name):\n    os.makedirs(output_folder_name)\n    print(f\"'{output_folder_name}' folder created.\")\ndef delete_files_in_directory(directory_path):\n    # Iterate through the files in the directory",
+        "detail": "split",
+        "documentation": {}
+    },
+    {
+        "label": "output_folder_name",
+        "kind": 5,
+        "importPath": "split",
+        "description": "split",
+        "peekOfCode": "output_folder_name = \"train\"\nif not os.path.exists(input_folder_name):\n    os.makedirs(input_folder_name)\n    print(f\"'{input_folder_name}' folder created.\")\nif not os.path.exists(output_folder_name):\n    os.makedirs(output_folder_name)\n    print(f\"'{output_folder_name}' folder created.\")\ndef delete_files_in_directory(directory_path):\n    # Iterate through the files in the directory\n    for file_name in os.listdir(directory_path):",
+        "detail": "split",
+        "documentation": {}
+    },
+    {
+        "label": "global_offset",
+        "kind": 5,
+        "importPath": "split",
+        "description": "split",
+        "peekOfCode": "global_offset = 0\ndef process_audio(file_path, output_dir, segment_length=30):\n    global global_offset\n    # Load audio file\n    audio = AudioSegment.from_file(file_path)\n    # Get file name without extension for caption\n    file_name = \" \".join(os.path.splitext(os.path.basename(file_path))[0].split('_')[:-2])\n    #print(file_name)\n    # Convert segment length to milliseconds\n    segment_length_ms = segment_length * 1000",
+        "detail": "split",
+        "documentation": {}
+    },
+    {
+        "label": "output_folder_name",
+        "kind": 5,
+        "importPath": "split",
+        "description": "split",
+        "peekOfCode": "output_folder_name = 'train'\n# Iterate through the files in the directory\nfor file_name in os.listdir(output_folder_name):\n    # Check if the file is a WAV file\n    if file_name.endswith('.wav'):\n        # Load the audio file\n        file_path = os.path.join(output_folder_name, file_name)\n        audio, sample_rate = librosa.load(file_path, sr=None)\n        # Check the shape of the audio\n        if audio.shape[0] == 32000 * 30:",
+        "detail": "split",
         "documentation": {}
     },
     {
@@ -754,20 +851,20 @@
         "documentation": {}
     },
     {
-        "label": "#device",
-        "kind": 5,
-        "importPath": "train",
-        "description": "train",
-        "peekOfCode": "#device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ndevice = torch.device(\"cpu\")\nclass AudioDataset(Dataset):\n    def __init__(self, data_dir, no_label=False):\n        global device\n        self.data_dir = data_dir\n        self.data_map = []\n        dir_map = os.listdir(data_dir)\n        for d in dir_map:\n            name, ext = os.path.splitext(d)",
-        "detail": "train",
-        "documentation": {}
-    },
-    {
         "label": "device",
         "kind": 5,
         "importPath": "train",
         "description": "train",
-        "peekOfCode": "device = torch.device(\"cpu\")\nclass AudioDataset(Dataset):\n    def __init__(self, data_dir, no_label=False):\n        global device\n        self.data_dir = data_dir\n        self.data_map = []\n        dir_map = os.listdir(data_dir)\n        for d in dir_map:\n            name, ext = os.path.splitext(d)\n            if ext == \".wav\":",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n#device = torch.device(\"cpu\")\nclass AudioDataset(Dataset):\n    def __init__(self, data_dir, no_label=False):\n        global device\n        self.data_dir = data_dir\n        self.data_map = []\n        dir_map = os.listdir(data_dir)\n        for d in dir_map:\n            name, ext = os.path.splitext(d)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "#device",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "#device = torch.device(\"cpu\")\nclass AudioDataset(Dataset):\n    def __init__(self, data_dir, no_label=False):\n        global device\n        self.data_dir = data_dir\n        self.data_map = []\n        dir_map = os.listdir(data_dir)\n        for d in dir_map:\n            name, ext = os.path.splitext(d)\n            if ext == \".wav\":",
         "detail": "train",
         "documentation": {}
     },
