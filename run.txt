@@ -1,0 +1,1 @@
+python3 run.py --save_step 5 --batch_size 1 --model_id facebook/musicgen-large --dataset_path drive/MyDrive/output

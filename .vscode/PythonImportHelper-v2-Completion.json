@@ -1,0 +1,918 @@
+[
+    {
+        "label": "torchaudio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchaudio",
+        "description": "torchaudio",
+        "detail": "torchaudio",
+        "documentation": {}
+    },
+    {
+        "label": "trange",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "MusicGen",
+        "importPath": "audiocraft.models",
+        "description": "audiocraft.models",
+        "isExtraImport": true,
+        "detail": "audiocraft.models",
+        "documentation": {}
+    },
+    {
+        "label": "MusicGen",
+        "importPath": "audiocraft.models",
+        "description": "audiocraft.models",
+        "isExtraImport": true,
+        "detail": "audiocraft.models",
+        "documentation": {}
+    },
+    {
+        "label": "MusicGen",
+        "importPath": "audiocraft.models",
+        "description": "audiocraft.models",
+        "isExtraImport": true,
+        "detail": "audiocraft.models",
+        "documentation": {}
+    },
+    {
+        "label": "MusicGen",
+        "importPath": "audiocraft.models",
+        "description": "audiocraft.models",
+        "isExtraImport": true,
+        "detail": "audiocraft.models",
+        "documentation": {}
+    },
+    {
+        "label": "MusicGen",
+        "importPath": "audiocraft.models",
+        "description": "audiocraft.models",
+        "isExtraImport": true,
+        "detail": "audiocraft.models",
+        "documentation": {}
+    },
+    {
+        "label": "audio_write",
+        "importPath": "audiocraft.data.audio",
+        "description": "audiocraft.data.audio",
+        "isExtraImport": true,
+        "detail": "audiocraft.data.audio",
+        "documentation": {}
+    },
+    {
+        "label": "audio_write",
+        "importPath": "audiocraft.data.audio",
+        "description": "audiocraft.data.audio",
+        "isExtraImport": true,
+        "detail": "audiocraft.data.audio",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "typing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "typing",
+        "description": "typing",
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "CompressionModel",
+        "importPath": "audiocraft.models.encodec",
+        "description": "audiocraft.models.encodec",
+        "isExtraImport": true,
+        "detail": "audiocraft.models.encodec",
+        "documentation": {}
+    },
+    {
+        "label": "LMModel",
+        "importPath": "audiocraft.models.lm",
+        "description": "audiocraft.models.lm",
+        "isExtraImport": true,
+        "detail": "audiocraft.models.lm",
+        "documentation": {}
+    },
+    {
+        "label": "get_debug_compression_model",
+        "importPath": "audiocraft.models.builders",
+        "description": "audiocraft.models.builders",
+        "isExtraImport": true,
+        "detail": "audiocraft.models.builders",
+        "documentation": {}
+    },
+    {
+        "label": "get_debug_lm_model",
+        "importPath": "audiocraft.models.builders",
+        "description": "audiocraft.models.builders",
+        "isExtraImport": true,
+        "detail": "audiocraft.models.builders",
+        "documentation": {}
+    },
+    {
+        "label": "load_compression_model",
+        "importPath": "audiocraft.models.loaders",
+        "description": "audiocraft.models.loaders",
+        "isExtraImport": true,
+        "detail": "audiocraft.models.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "load_lm_model",
+        "importPath": "audiocraft.models.loaders",
+        "description": "audiocraft.models.loaders",
+        "isExtraImport": true,
+        "detail": "audiocraft.models.loaders",
+        "documentation": {}
+    },
+    {
+        "label": "convert_audio",
+        "importPath": "audiocraft.data.audio_utils",
+        "description": "audiocraft.data.audio_utils",
+        "isExtraImport": true,
+        "detail": "audiocraft.data.audio_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ConditioningAttributes",
+        "importPath": "audiocraft.modules.conditioners",
+        "description": "audiocraft.modules.conditioners",
+        "isExtraImport": true,
+        "detail": "audiocraft.modules.conditioners",
+        "documentation": {}
+    },
+    {
+        "label": "WavCondition",
+        "importPath": "audiocraft.modules.conditioners",
+        "description": "audiocraft.modules.conditioners",
+        "isExtraImport": true,
+        "detail": "audiocraft.modules.conditioners",
+        "documentation": {}
+    },
+    {
+        "label": "ClassifierFreeGuidanceDropout",
+        "importPath": "audiocraft.modules.conditioners",
+        "description": "audiocraft.modules.conditioners",
+        "isExtraImport": true,
+        "detail": "audiocraft.modules.conditioners",
+        "documentation": {}
+    },
+    {
+        "label": "ClassifierFreeGuidanceDropout",
+        "importPath": "audiocraft.modules.conditioners",
+        "description": "audiocraft.modules.conditioners",
+        "isExtraImport": true,
+        "detail": "audiocraft.modules.conditioners",
+        "documentation": {}
+    },
+    {
+        "label": "ClassifierFreeGuidanceDropout",
+        "importPath": "audiocraft.modules.conditioners",
+        "description": "audiocraft.modules.conditioners",
+        "isExtraImport": true,
+        "detail": "audiocraft.modules.conditioners",
+        "documentation": {}
+    },
+    {
+        "label": "ClassifierFreeGuidanceDropout",
+        "importPath": "audiocraft.modules.conditioners",
+        "description": "audiocraft.modules.conditioners",
+        "isExtraImport": true,
+        "detail": "audiocraft.modules.conditioners",
+        "documentation": {}
+    },
+    {
+        "label": "TorchAutocast",
+        "importPath": "audiocraft.utils.autocast",
+        "description": "audiocraft.utils.autocast",
+        "isExtraImport": true,
+        "detail": "audiocraft.utils.autocast",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "train",
+        "importPath": "train",
+        "description": "train",
+        "isExtraImport": true,
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "AdamW",
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "isExtraImport": true,
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "AdamW",
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "isExtraImport": true,
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "AdamW",
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "isExtraImport": true,
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "AdamW",
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "isExtraImport": true,
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "wandb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wandb",
+        "description": "wandb",
+        "detail": "wandb",
+        "documentation": {}
+    },
+    {
+        "label": "AudioWBDS",
+        "importPath": "data.dataloaders",
+        "description": "data.dataloaders",
+        "isExtraImport": true,
+        "detail": "data.dataloaders",
+        "documentation": {}
+    },
+    {
+        "label": "get_scheduler",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "get_scheduler",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "get_scheduler",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "torch_xla",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch_xla",
+        "description": "torch_xla",
+        "detail": "torch_xla",
+        "documentation": {}
+    },
+    {
+        "label": "torch_xla.core.xla_model",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch_xla.core.xla_model",
+        "description": "torch_xla.core.xla_model",
+        "detail": "torch_xla.core.xla_model",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "kind": 5,
+        "importPath": "gen",
+        "description": "gen",
+        "peekOfCode": "parser = argparse.ArgumentParser()\nparser.add_argument('--prompt', type=str, required=True)\nparser.add_argument('--weights_path', type=str, required=False, default=None)\nparser.add_argument('--model_id', type=str, required=False, default='small')\nparser.add_argument('--save_path', type=str, required=False, default='test.wav')\nparser.add_argument('--duration', type=float, required=False, default=30)\nparser.add_argument('--sample_loops', type=int, required=False, default=4)\nparser.add_argument('--use_sampling', type=bool, required=False, default=1)\nparser.add_argument('--two_step_cfg', type=bool, required=False, default=0)\nparser.add_argument('--top_k', type=int, required=False, default=250)",
+        "detail": "gen",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": "gen",
+        "description": "gen",
+        "peekOfCode": "args = parser.parse_args()\nmodel = MusicGen.get_pretrained(args.model_id)\nself = model\n# print(self.lm.state_dict().keys())\nif args.weights_path is not None:\n    self.lm.load_state_dict(torch.load(args.weights_path))\nattributes, prompt_tokens = self._prepare_tokens_and_attributes([args.prompt], None)\nprint(\"attributes:\", attributes)\nprint(\"prompt_tokens:\", prompt_tokens)\nduration = args.duration",
+        "detail": "gen",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "gen",
+        "description": "gen",
+        "peekOfCode": "model = MusicGen.get_pretrained(args.model_id)\nself = model\n# print(self.lm.state_dict().keys())\nif args.weights_path is not None:\n    self.lm.load_state_dict(torch.load(args.weights_path))\nattributes, prompt_tokens = self._prepare_tokens_and_attributes([args.prompt], None)\nprint(\"attributes:\", attributes)\nprint(\"prompt_tokens:\", prompt_tokens)\nduration = args.duration\nself.generation_params = {",
+        "detail": "gen",
+        "documentation": {}
+    },
+    {
+        "label": "self",
+        "kind": 5,
+        "importPath": "gen",
+        "description": "gen",
+        "peekOfCode": "self = model\n# print(self.lm.state_dict().keys())\nif args.weights_path is not None:\n    self.lm.load_state_dict(torch.load(args.weights_path))\nattributes, prompt_tokens = self._prepare_tokens_and_attributes([args.prompt], None)\nprint(\"attributes:\", attributes)\nprint(\"prompt_tokens:\", prompt_tokens)\nduration = args.duration\nself.generation_params = {\n    'max_gen_len': int(duration * self.frame_rate),",
+        "detail": "gen",
+        "documentation": {}
+    },
+    {
+        "label": "duration",
+        "kind": 5,
+        "importPath": "gen",
+        "description": "gen",
+        "peekOfCode": "duration = args.duration\nself.generation_params = {\n    'max_gen_len': int(duration * self.frame_rate),\n    'use_sampling': args.use_sampling,\n    'temp': args.temperature,\n    'top_k': args.top_k,\n    'top_p': args.top_p,\n    'cfg_coef': args.cfg_coef,\n    'two_step_cfg': args.two_step_cfg,\n}",
+        "detail": "gen",
+        "documentation": {}
+    },
+    {
+        "label": "self.generation_params",
+        "kind": 5,
+        "importPath": "gen",
+        "description": "gen",
+        "peekOfCode": "self.generation_params = {\n    'max_gen_len': int(duration * self.frame_rate),\n    'use_sampling': args.use_sampling,\n    'temp': args.temperature,\n    'top_k': args.top_k,\n    'top_p': args.top_p,\n    'cfg_coef': args.cfg_coef,\n    'two_step_cfg': args.two_step_cfg,\n}\ntotal = []",
+        "detail": "gen",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "gen",
+        "description": "gen",
+        "peekOfCode": "total = []\nfor _ in trange(args.sample_loops):\n    with self.autocast:\n        gen_tokens = self.lm.generate(prompt_tokens, attributes, callback=None, **self.generation_params)\n        total.append(gen_tokens[..., prompt_tokens.shape[-1] if prompt_tokens is not None else 0:])\n        prompt_tokens = gen_tokens[..., -gen_tokens.shape[-1] // 2:]\ngen_tokens = torch.cat(total, -1)\nassert gen_tokens.dim() == 3\nprint(\"gen_tokens information\")\nprint(\"Shape:\", gen_tokens.shape)",
+        "detail": "gen",
+        "documentation": {}
+    },
+    {
+        "label": "gen_tokens",
+        "kind": 5,
+        "importPath": "gen",
+        "description": "gen",
+        "peekOfCode": "gen_tokens = torch.cat(total, -1)\nassert gen_tokens.dim() == 3\nprint(\"gen_tokens information\")\nprint(\"Shape:\", gen_tokens.shape)\nprint(\"Dtype:\", gen_tokens.dtype)\nprint(\"Contents:\", gen_tokens)\nwith torch.no_grad():\n    gen_audio = self.compression_model.decode(gen_tokens, None)\nprint(\"gen_audio information\")\nprint(\"Shape:\", gen_audio.shape)",
+        "detail": "gen",
+        "documentation": {}
+    },
+    {
+        "label": "gen_audio",
+        "kind": 5,
+        "importPath": "gen",
+        "description": "gen",
+        "peekOfCode": "gen_audio = gen_audio.cpu()\ntorchaudio.save(args.save_path, gen_audio[0], self.sample_rate)",
+        "detail": "gen",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "parser = argparse.ArgumentParser()\nparser.add_argument('--dataset_path', type=str, required=True)\nparser.add_argument('--model_id', type=str, required=False, default='small')\nparser.add_argument('--lr', type=float, required=False, default=1e-5)\nparser.add_argument('--epochs', type=int, required=False, default=100)\nparser.add_argument('--use_wandb', type=int, required=False, default=0)\nparser.add_argument('--save_step', type=int, required=False, default=None)\nparser.add_argument('--no_label', type=int, required=False, default=0)\nparser.add_argument('--tune_text', type=int, required=False, default=0)\nparser.add_argument('--weight_decay', type=float, required=False, default=1e-5)",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "args = parser.parse_args()\ntrain(\n    dataset_path=args.dataset_path,\n    model_id=args.model_id,\n    lr=args.lr,\n    epochs=args.epochs,\n    use_wandb=args.use_wandb,\n    save_step=args.save_step,\n    no_label=args.no_label,\n    tune_text=args.tune_text,",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "count_nans",
+        "kind": 2,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "def count_nans(tensor):\n    nan_mask = torch.isnan(tensor)\n    num_nans = torch.sum(nan_mask).item()\n    return num_nans\ndef preprocess_audio(audio_tensor, model: MusicGen, duration: int = 30):\n    wav, sr = audio_tensor\n    #tmp\n    wav: torch.Tensor\n    wav = wav.squeeze(0)\n    wav = torchaudio.functional.resample(wav, sr, model.sample_rate)",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_audio",
+        "kind": 2,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "def preprocess_audio(audio_tensor, model: MusicGen, duration: int = 30):\n    wav, sr = audio_tensor\n    #tmp\n    wav: torch.Tensor\n    wav = wav.squeeze(0)\n    wav = torchaudio.functional.resample(wav, sr, model.sample_rate)\n    wav = wav.mean(dim=0, keepdim=True)\n    end_sample = int(model.sample_rate * duration)\n    wav = wav[:, :end_sample]\n    # pad if missing",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "fixnan",
+        "kind": 2,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "def fixnan(tensor: torch.Tensor):\n    nan_mask = torch.isnan(tensor)\n    result = torch.where(nan_mask, torch.zeros_like(tensor), tensor)\n    return result\ndef one_hot_encode(tensor, num_classes=2048):\n    shape = tensor.shape\n    one_hot = torch.zeros((shape[0], shape[1], num_classes))\n    for i in range(shape[0]):\n        for j in range(shape[1]):\n            index = tensor[i, j].item()",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "one_hot_encode",
+        "kind": 2,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "def one_hot_encode(tensor, num_classes=2048):\n    shape = tensor.shape\n    one_hot = torch.zeros((shape[0], shape[1], num_classes))\n    for i in range(shape[0]):\n        for j in range(shape[1]):\n            index = tensor[i, j].item()\n            one_hot[i, j, index] = 1\n    return one_hot\nduration = 30\ncurrent_step = 0",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "model = MusicGen.get_pretrained('small')\nmodel.lm = model.lm.to(torch.float32) #important\ndataset = AudioWBDS(\n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/raw/main/train/sizes.json\", \n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/resolve/main/train/\"\n    )\neval_dataset = AudioWBDS(\n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/raw/main/test/sizes.json\",\n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/resolve/main/test/\"\n)",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "model.lm",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "model.lm = model.lm.to(torch.float32) #important\ndataset = AudioWBDS(\n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/raw/main/train/sizes.json\", \n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/resolve/main/train/\"\n    )\neval_dataset = AudioWBDS(\n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/raw/main/test/sizes.json\",\n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/resolve/main/test/\"\n)\ntrain_dataloader = DataLoader(dataset, batch_size=1)",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "dataset",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "dataset = AudioWBDS(\n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/raw/main/train/sizes.json\", \n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/resolve/main/train/\"\n    )\neval_dataset = AudioWBDS(\n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/raw/main/test/sizes.json\",\n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/resolve/main/test/\"\n)\ntrain_dataloader = DataLoader(dataset, batch_size=1)\neval_dataloader = DataLoader(eval_dataset, batch_size=1)",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "eval_dataset",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "eval_dataset = AudioWBDS(\n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/raw/main/test/sizes.json\",\n    \"https://huggingface.co/datasets/atom-in-the-universe/audstock-10k-music/resolve/main/test/\"\n)\ntrain_dataloader = DataLoader(dataset, batch_size=1)\neval_dataloader = DataLoader(eval_dataset, batch_size=1)\nlearning_rate = 0.0001\nmodel.lm.train()\nscaler = torch.cuda.amp.GradScaler()\n#from paper",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "train_dataloader",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "train_dataloader = DataLoader(dataset, batch_size=1)\neval_dataloader = DataLoader(eval_dataset, batch_size=1)\nlearning_rate = 0.0001\nmodel.lm.train()\nscaler = torch.cuda.amp.GradScaler()\n#from paper\noptimizer = AdamW(model.lm.parameters(), lr=learning_rate, betas=(0.9, 0.95), weight_decay=0.1)\ncriterion = nn.CrossEntropyLoss()\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nrun = wandb.init(project='audiocraft')",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "eval_dataloader",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "eval_dataloader = DataLoader(eval_dataset, batch_size=1)\nlearning_rate = 0.0001\nmodel.lm.train()\nscaler = torch.cuda.amp.GradScaler()\n#from paper\noptimizer = AdamW(model.lm.parameters(), lr=learning_rate, betas=(0.9, 0.95), weight_decay=0.1)\ncriterion = nn.CrossEntropyLoss()\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nrun = wandb.init(project='audiocraft')\nnum_epochs = 10000",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "learning_rate",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "learning_rate = 0.0001\nmodel.lm.train()\nscaler = torch.cuda.amp.GradScaler()\n#from paper\noptimizer = AdamW(model.lm.parameters(), lr=learning_rate, betas=(0.9, 0.95), weight_decay=0.1)\ncriterion = nn.CrossEntropyLoss()\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nrun = wandb.init(project='audiocraft')\nnum_epochs = 10000\nsave_step = 200",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "scaler = torch.cuda.amp.GradScaler()\n#from paper\noptimizer = AdamW(model.lm.parameters(), lr=learning_rate, betas=(0.9, 0.95), weight_decay=0.1)\ncriterion = nn.CrossEntropyLoss()\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nrun = wandb.init(project='audiocraft')\nnum_epochs = 10000\nsave_step = 200\neval_step = 25\nsave_models = True",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "optimizer",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "optimizer = AdamW(model.lm.parameters(), lr=learning_rate, betas=(0.9, 0.95), weight_decay=0.1)\ncriterion = nn.CrossEntropyLoss()\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nrun = wandb.init(project='audiocraft')\nnum_epochs = 10000\nsave_step = 200\neval_step = 25\nsave_models = True\ndef count_nans(tensor):\n    nan_mask = torch.isnan(tensor)",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "criterion",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "criterion = nn.CrossEntropyLoss()\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nrun = wandb.init(project='audiocraft')\nnum_epochs = 10000\nsave_step = 200\neval_step = 25\nsave_models = True\ndef count_nans(tensor):\n    nan_mask = torch.isnan(tensor)\n    num_nans = torch.sum(nan_mask).item()",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nrun = wandb.init(project='audiocraft')\nnum_epochs = 10000\nsave_step = 200\neval_step = 25\nsave_models = True\ndef count_nans(tensor):\n    nan_mask = torch.isnan(tensor)\n    num_nans = torch.sum(nan_mask).item()\n    return num_nans",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "run = wandb.init(project='audiocraft')\nnum_epochs = 10000\nsave_step = 200\neval_step = 25\nsave_models = True\ndef count_nans(tensor):\n    nan_mask = torch.isnan(tensor)\n    num_nans = torch.sum(nan_mask).item()\n    return num_nans\ndef preprocess_audio(audio_tensor, model: MusicGen, duration: int = 30):",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "num_epochs",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "num_epochs = 10000\nsave_step = 200\neval_step = 25\nsave_models = True\ndef count_nans(tensor):\n    nan_mask = torch.isnan(tensor)\n    num_nans = torch.sum(nan_mask).item()\n    return num_nans\ndef preprocess_audio(audio_tensor, model: MusicGen, duration: int = 30):\n    wav, sr = audio_tensor",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "save_step",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "save_step = 200\neval_step = 25\nsave_models = True\ndef count_nans(tensor):\n    nan_mask = torch.isnan(tensor)\n    num_nans = torch.sum(nan_mask).item()\n    return num_nans\ndef preprocess_audio(audio_tensor, model: MusicGen, duration: int = 30):\n    wav, sr = audio_tensor\n    #tmp",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "eval_step",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "eval_step = 25\nsave_models = True\ndef count_nans(tensor):\n    nan_mask = torch.isnan(tensor)\n    num_nans = torch.sum(nan_mask).item()\n    return num_nans\ndef preprocess_audio(audio_tensor, model: MusicGen, duration: int = 30):\n    wav, sr = audio_tensor\n    #tmp\n    wav: torch.Tensor",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "save_models",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "save_models = True\ndef count_nans(tensor):\n    nan_mask = torch.isnan(tensor)\n    num_nans = torch.sum(nan_mask).item()\n    return num_nans\ndef preprocess_audio(audio_tensor, model: MusicGen, duration: int = 30):\n    wav, sr = audio_tensor\n    #tmp\n    wav: torch.Tensor\n    wav = wav.squeeze(0)",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "duration",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "duration = 30\ncurrent_step = 0\nseparator = \", \"\nfor epoch in range(num_epochs):\n    for batch_idx, contents in enumerate(train_dataloader):\n        optimizer.zero_grad()\n        #where audio and label are just paths\n        audio = contents['flac'] # tensor with wav and sr\n        text = contents['json']['text'][0][0] # string\n        for tag in contents['json']['tag']:",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "current_step",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "current_step = 0\nseparator = \", \"\nfor epoch in range(num_epochs):\n    for batch_idx, contents in enumerate(train_dataloader):\n        optimizer.zero_grad()\n        #where audio and label are just paths\n        audio = contents['flac'] # tensor with wav and sr\n        text = contents['json']['text'][0][0] # string\n        for tag in contents['json']['tag']:\n            text += separator + tag[0]",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "separator",
+        "kind": 5,
+        "importPath": "testwds",
+        "description": "testwds",
+        "peekOfCode": "separator = \", \"\nfor epoch in range(num_epochs):\n    for batch_idx, contents in enumerate(train_dataloader):\n        optimizer.zero_grad()\n        #where audio and label are just paths\n        audio = contents['flac'] # tensor with wav and sr\n        text = contents['json']['text'][0][0] # string\n        for tag in contents['json']['tag']:\n            text += separator + tag[0]\n        audio = preprocess_audio(audio, model) #returns tensor",
+        "detail": "testwds",
+        "documentation": {}
+    },
+    {
+        "label": "AudioDataset",
+        "kind": 6,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "class AudioDataset(Dataset):\n    def __init__(self, data_dir, no_label=False):\n        global device\n        self.data_dir = data_dir\n        self.data_map = []\n        dir_map = os.listdir(data_dir)\n        for d in dir_map:\n            name, ext = os.path.splitext(d)\n            if ext == \".wav\":\n                if no_label:",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "count_nans",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def count_nans(tensor):\n    global device\n    nan_mask = torch.isnan(tensor)\n    num_nans = torch.sum(nan_mask).item()\n    return num_nans\ndef preprocess_audio(audio_path, model: MusicGen, duration: int = 30):\n    global device\n    wav, sr = torchaudio.load(audio_path)\n    wav = torchaudio.functional.resample(wav, sr, model.sample_rate)\n    wav = wav.mean(dim=0, keepdim=True)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_audio",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def preprocess_audio(audio_path, model: MusicGen, duration: int = 30):\n    global device\n    wav, sr = torchaudio.load(audio_path)\n    wav = torchaudio.functional.resample(wav, sr, model.sample_rate)\n    wav = wav.mean(dim=0, keepdim=True)\n    if wav.shape[1] < model.sample_rate * duration:\n        return None\n    end_sample = int(model.sample_rate * duration)\n    start_sample = random.randrange(0, max(wav.shape[1] - end_sample, 1))\n    wav = wav[:, start_sample : start_sample + end_sample]",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "fixnan",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def fixnan(tensor: torch.Tensor):\n    global device\n    nan_mask = torch.isnan(tensor)\n    result = torch.where(nan_mask, torch.zeros_like(tensor), tensor)\n    return result\ndef one_hot_encode(tensor, num_classes=2048):\n    global device\n    shape = tensor.shape\n    one_hot = torch.zeros((shape[0], shape[1], num_classes))\n    for i in range(shape[0]):",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "one_hot_encode",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def one_hot_encode(tensor, num_classes=2048):\n    global device\n    shape = tensor.shape\n    one_hot = torch.zeros((shape[0], shape[1], num_classes))\n    for i in range(shape[0]):\n        for j in range(shape[1]):\n            index = tensor[i, j].item()\n            one_hot[i, j, index] = 1\n    return one_hot\ndef train(",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "train",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def train(\n    dataset_path: str,\n    model_id: str,\n    lr: float,\n    epochs: int,\n    use_wandb: bool,\n    no_label: bool = False,\n    tune_text: bool = False,\n    save_step: int = None,\n    grad_acc: int = 8,",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "#device",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "#device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\ndevice = torch.device(\"cpu\")\nclass AudioDataset(Dataset):\n    def __init__(self, data_dir, no_label=False):\n        global device\n        self.data_dir = data_dir\n        self.data_map = []\n        dir_map = os.listdir(data_dir)\n        for d in dir_map:\n            name, ext = os.path.splitext(d)",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "device = torch.device(\"cpu\")\nclass AudioDataset(Dataset):\n    def __init__(self, data_dir, no_label=False):\n        global device\n        self.data_dir = data_dir\n        self.data_map = []\n        dir_map = os.listdir(data_dir)\n        for d in dir_map:\n            name, ext = os.path.splitext(d)\n            if ext == \".wav\":",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "AudioDataset",
+        "kind": 6,
+        "importPath": "train_f16",
+        "description": "train_f16",
+        "peekOfCode": "class AudioDataset(Dataset):\n    def __init__(self, data_dir, no_label=False):\n        global device\n        self.data_dir = data_dir\n        self.data_map = []\n        dir_map = os.listdir(data_dir)\n        for d in dir_map:\n            name, ext = os.path.splitext(d)\n            if ext == \".wav\":\n                if no_label:",
+        "detail": "train_f16",
+        "documentation": {}
+    },
+    {
+        "label": "count_nans",
+        "kind": 2,
+        "importPath": "train_f16",
+        "description": "train_f16",
+        "peekOfCode": "def count_nans(tensor):\n    global device\n    nan_mask = torch.isnan(tensor)\n    num_nans = torch.sum(nan_mask).item()\n    return num_nans\ndef preprocess_audio(audio_path, model: MusicGen, duration: int = 30):\n    global device\n    wav, sr = torchaudio.load(audio_path)\n    wav = torchaudio.functional.resample(wav, sr, model.sample_rate)\n    wav = wav.mean(dim=0, keepdim=True)",
+        "detail": "train_f16",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_audio",
+        "kind": 2,
+        "importPath": "train_f16",
+        "description": "train_f16",
+        "peekOfCode": "def preprocess_audio(audio_path, model: MusicGen, duration: int = 30):\n    global device\n    wav, sr = torchaudio.load(audio_path)\n    wav = torchaudio.functional.resample(wav, sr, model.sample_rate)\n    wav = wav.mean(dim=0, keepdim=True)\n    if wav.shape[1] < model.sample_rate * duration:\n        return None\n    end_sample = int(model.sample_rate * duration)\n    start_sample = random.randrange(0, max(wav.shape[1] - end_sample, 1))\n    wav = wav[:, start_sample : start_sample + end_sample]",
+        "detail": "train_f16",
+        "documentation": {}
+    },
+    {
+        "label": "fixnan",
+        "kind": 2,
+        "importPath": "train_f16",
+        "description": "train_f16",
+        "peekOfCode": "def fixnan(tensor: torch.Tensor):\n    global device\n    nan_mask = torch.isnan(tensor)\n    result = torch.where(nan_mask, torch.zeros_like(tensor), tensor)\n    return result\ndef one_hot_encode(tensor, num_classes=2048):\n    global device\n    shape = tensor.shape\n    one_hot = torch.zeros((shape[0], shape[1], num_classes))\n    for i in range(shape[0]):",
+        "detail": "train_f16",
+        "documentation": {}
+    },
+    {
+        "label": "one_hot_encode",
+        "kind": 2,
+        "importPath": "train_f16",
+        "description": "train_f16",
+        "peekOfCode": "def one_hot_encode(tensor, num_classes=2048):\n    global device\n    shape = tensor.shape\n    one_hot = torch.zeros((shape[0], shape[1], num_classes))\n    for i in range(shape[0]):\n        for j in range(shape[1]):\n            index = tensor[i, j].item()\n            one_hot[i, j, index] = 1\n    return one_hot\ndef train(",
+        "detail": "train_f16",
+        "documentation": {}
+    },
+    {
+        "label": "train",
+        "kind": 2,
+        "importPath": "train_f16",
+        "description": "train_f16",
+        "peekOfCode": "def train(\n    dataset_path: str,\n    model_id: str,\n    lr: float,\n    epochs: int,\n    use_wandb: bool,\n    no_label: bool = False,\n    tune_text: bool = False,\n    save_step: int = None,\n    grad_acc: int = 8,",
+        "detail": "train_f16",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "train_f16",
+        "description": "train_f16",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n#device = torch.device(\"cpu\")\nclass AudioDataset(Dataset):\n    def __init__(self, data_dir, no_label=False):\n        global device\n        self.data_dir = data_dir\n        self.data_map = []\n        dir_map = os.listdir(data_dir)\n        for d in dir_map:\n            name, ext = os.path.splitext(d)",
+        "detail": "train_f16",
+        "documentation": {}
+    },
+    {
+        "label": "#device",
+        "kind": 5,
+        "importPath": "train_f16",
+        "description": "train_f16",
+        "peekOfCode": "#device = torch.device(\"cpu\")\nclass AudioDataset(Dataset):\n    def __init__(self, data_dir, no_label=False):\n        global device\n        self.data_dir = data_dir\n        self.data_map = []\n        dir_map = os.listdir(data_dir)\n        for d in dir_map:\n            name, ext = os.path.splitext(d)\n            if ext == \".wav\":",
+        "detail": "train_f16",
+        "documentation": {}
+    },
+    {
+        "label": "AudioDataset",
+        "kind": 6,
+        "importPath": "train_tpu",
+        "description": "train_tpu",
+        "peekOfCode": "class AudioDataset(Dataset):\n    def __init__(self, data_dir, no_label=False):\n        global device\n        self.data_dir = data_dir\n        self.data_map = []\n        dir_map = os.listdir(data_dir)\n        for d in dir_map:\n            name, ext = os.path.splitext(d)\n            if ext == \".wav\":\n                if no_label:",
+        "detail": "train_tpu",
+        "documentation": {}
+    },
+    {
+        "label": "count_nans",
+        "kind": 2,
+        "importPath": "train_tpu",
+        "description": "train_tpu",
+        "peekOfCode": "def count_nans(tensor):\n    global device\n    nan_mask = torch.isnan(tensor)\n    num_nans = torch.sum(nan_mask).item()\n    return num_nans\ndef preprocess_audio(audio_path, model: MusicGen, duration: int = 30):\n    global device\n    print(\"updated\")\n    wav, sr = torchaudio.load(audio_path)\n    wav = torchaudio.functional.resample(wav, sr, model.sample_rate)",
+        "detail": "train_tpu",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_audio",
+        "kind": 2,
+        "importPath": "train_tpu",
+        "description": "train_tpu",
+        "peekOfCode": "def preprocess_audio(audio_path, model: MusicGen, duration: int = 30):\n    global device\n    print(\"updated\")\n    wav, sr = torchaudio.load(audio_path)\n    wav = torchaudio.functional.resample(wav, sr, model.sample_rate)\n    wav = wav.mean(dim=0, keepdim=True)\n    if wav.shape[1] < model.sample_rate * duration:\n        return None\n    end_sample = int(model.sample_rate * duration)\n    start_sample = random.randrange(0, max(wav.shape[1] - end_sample, 1))",
+        "detail": "train_tpu",
+        "documentation": {}
+    },
+    {
+        "label": "fixnan",
+        "kind": 2,
+        "importPath": "train_tpu",
+        "description": "train_tpu",
+        "peekOfCode": "def fixnan(tensor: torch.Tensor):\n    global device\n    nan_mask = torch.isnan(tensor)\n    result = torch.where(nan_mask, torch.zeros_like(tensor), tensor)\n    return result\n# Function to select the device\ndef get_device():\n    try:\n        # Tries to set up for TPU\n        device = xm.xla_device()",
+        "detail": "train_tpu",
+        "documentation": {}
+    },
+    {
+        "label": "get_device",
+        "kind": 2,
+        "importPath": "train_tpu",
+        "description": "train_tpu",
+        "peekOfCode": "def get_device():\n    try:\n        # Tries to set up for TPU\n        device = xm.xla_device()\n        print(\"Using TPU\")\n    except:\n        # If TPU is not available, checks for GPU\n        if torch.cuda.is_available():\n            device = torch.device(\"cuda\")\n            print(\"Using GPU\")",
+        "detail": "train_tpu",
+        "documentation": {}
+    },
+    {
+        "label": "one_hot_encode",
+        "kind": 2,
+        "importPath": "train_tpu",
+        "description": "train_tpu",
+        "peekOfCode": "def one_hot_encode(tensor, num_classes=2048):\n    global device\n    shape = tensor.shape\n    one_hot = torch.zeros((shape[0], shape[1], num_classes))\n    for i in range(shape[0]):\n        for j in range(shape[1]):\n            index = tensor[i, j].item()\n            one_hot[i, j, index] = 1\n    return one_hot\ndevice = get_device()",
+        "detail": "train_tpu",
+        "documentation": {}
+    },
+    {
+        "label": "train",
+        "kind": 2,
+        "importPath": "train_tpu",
+        "description": "train_tpu",
+        "peekOfCode": "def train(\n    dataset_path: str,\n    model_id: str,\n    lr: float,\n    epochs: int,\n    use_wandb: bool,\n    no_label: bool = False,\n    tune_text: bool = False,\n    save_step: int = None,\n    grad_acc: int = 8,",
+        "detail": "train_tpu",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "train_tpu",
+        "description": "train_tpu",
+        "peekOfCode": "device = get_device()\ndef train(\n    dataset_path: str,\n    model_id: str,\n    lr: float,\n    epochs: int,\n    use_wandb: bool,\n    no_label: bool = False,\n    tune_text: bool = False,\n    save_step: int = None,",
+        "detail": "train_tpu",
+        "documentation": {}
+    }
+]
