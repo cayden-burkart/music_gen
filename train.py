@@ -15,8 +15,8 @@ from audiocraft.modules.conditioners import ClassifierFreeGuidanceDropout
 
 import os
 
-#device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-device = torch.device("cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+#device = torch.device("cpu")
 
 class AudioDataset(Dataset):
     def __init__(self, data_dir, no_label=False):
